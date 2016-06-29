@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+	<link rel="stylesheet" type="text/css" media="screen and (max-width: 999px)" href="css/tinyscreen.css" />
+	<link rel="stylesheet" type="text/css" media="screen and (min-width: 1000px)" href="css/style.css" />
+	<script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "//hm.baidu.com/hm.js?75a4a40b98141fc49d69d6df1f6f4a87";
+	  var s = document.getElementsByTagName("script")[0]; 
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>
+
+	<title>哼吃潮品</title>
+	<meta name="keywords" content="哼吃潮品">
+	<meta name="description" content="哼吃潮品可以让你的公众号关注者发现更多有趣的东西。">
+	<!-- End of KF5 supportbox script -->
+</head>
+<body>
+	<div class="wrapper">
+		<div id="main" class="clearfix">
+			<div class="home_hd">
+				<div class="home_hd_wrapper">
+					<div class="home_main">
+						<div class="home_name">哼吃潮品</div>
+						<div class="home_slogan">正青春，当然乐享极致！</div>
+						<div class="home_intro">让你的公众号关注者发现一些有趣的东西。</div>
+						<div class="home_ex" id="ex_btn">
+							<div class="home_ex_icon_wrapper">
+								<div class="home_ex_icon"></div>
+							</div>
+							<div class="home_ex_wrapper">
+								<div class="home_ex_now">立刻体验</div>
+							</div>
+						</div>
+					</div>
+					<div class="home_preview">
+						<img src="picture/preview.png">
+					</div>
+					<div class="home_preview2">
+						<img src="picture/preview2.png">
+					</div>
+				</div>
+			</div>
+			<div class="home_body">
+				<h1>应用场景：</h1>
+				<div class="home_intro_item">
+					<div class="home_intro_icon_wrapper">
+						<img src="picture/second_hand.png">
+					</div>
+					<div class="home_intro_info_wrapper">
+						<div class="home_intro_title"><a href="https://wap.koudaitong.com/v2/feature/1ebzb3mqg">微信外卖商城</a></div>
+						<div class="home_intro_detail">
+							<br>
+							潮萌百货：小吃，零食应有尽有
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+
+				<div class="home_intro_item">
+					<div class="home_intro_icon_wrapper">
+						<img src="picture/teach.png">
+					</div>
+					<div class="home_intro_info_wrapper">
+						<div class="home_intro_title"><a href="http://hengchichaopin.com/hccp/">互动娱乐&应用开发</a></div>
+						<div class="home_intro_detail">
+							<br>
+							用户群体：移动互联网发烧友，对技术有着执着的追求！
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+
+				<div class="home_intro_item home_intro_item_right">
+					<div class="home_intro_icon_wrapper">
+						<img src="picture/qita.png">
+					</div>
+					<div class="home_intro_info_wrapper">
+
+						<div class="home_intro_title">更多</div>
+						<div class="home_intro_detail">
+							人人都有一颗巨大的脑洞。
+							<br>期待你用哼吃潮品玩出花来，并告诉我们^_^
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		
+	</div>
+	<div class="home_ft" id="footer">
+		<span>©2016哼吃潮品版权所有.保留一切权利|陇ICP备16001252号</span>
+	</div>
+
+	<div class="cover" style="display:none"></div>
+
+	<div class="alert_box" style="display:none">
+		<div class="center_box">
+			<div class="qrcode_box_title"><span>扫描二维码体验</span></div>
+			<div class="qrcode_box">
+				<div class="qrcode_box_img">
+					<img src="picture/follow.png"/>
+				</div>
+			</div>
+			<div class="qrcode_box_detail">
+				关注之后，点击「下方菜单」即可体验
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function(){
+
+		$(document).keyup(function(e) {
+			if (e.keyCode == 27) {
+				$(".cover").fadeOut()
+				$(".alert_box").fadeOut()
+			}
+		});
+
+		$("#ex_btn").click(function(){
+			$(".cover").fadeIn();
+			$(".alert_box").fadeIn();
+		})
+
+		$(".cover").click(function(){
+			$(".cover").fadeOut()
+			$(".alert_box").fadeOut()
+		})
+
+		$(".alert_box").click(function(){
+			$(".cover").fadeOut()
+			$(".alert_box").fadeOut()
+		})
+	})
+	</script>
+
+</body>
+</html>

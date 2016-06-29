@@ -1,0 +1,225 @@
+﻿body{
+	line-height: 1.6;
+	-webkit-font-smoothing: antialiased;
+	color: #222;
+	font-size: 15px;
+	background: #FBF9FE;
+	font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+}
+ul, ol {
+	padding-left: 0;
+	list-style-type: none;
+}
+a{
+	color: #607fa6;
+}
+
+
+
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+
+.home_hd{
+	width: 100%;
+	height: 10%;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	max-height: 520px;
+	position: relative;
+	color: #fff;
+	-webkit-font-smoothing: antialiased;
+	background-color: #3bc89c;
+}
+
+
+.home_preview,.home_preview2{
+	display: none;
+}
+
+
+
+html, body, #wrap {height: 100%;}
+body > .wrapper {height: auto; min-height: 100%;}
+#main {padding-bottom: 28px;}  /* 必须使用和footer相同的高度 */
+#footer {position: relative;
+	margin-top:-28px; /* footer高度的负值 */
+	clear:both;}
+
+.clearfix:after {content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+
+.home_ft{
+	color: #fff;
+	font-weight: 300;
+	text-align: center;
+	background-color: #3bc89c;
+	font-size: 20px;
+	line-height: 28px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.home_body{
+	margin: auto;
+	max-width: 1024px;
+	left: 30px;
+	right: 30px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+
+.home_body h1{
+	text-align: left;
+	margin-bottom: 40px;
+	font-weight: normal;
+	margin-left: 10px;
+}
+
+.home_intro_item {
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.home_intro_icon_wrapper{
+	float: left;
+	width: 30%;
+}
+
+.home_intro_icon_wrapper img{
+	width: 100%;
+}
+
+.home_intro_title{
+	color: #000;
+	font-size: 22px;
+	margin-top: 10px;
+}
+
+.home_intro_detail{
+	color: #888;
+	font-size: 12px;
+	margin-top: 10px;
+}
+
+.home_intro_info_wrapper{
+	float: left;
+	width: 60%;
+	text-align: left;
+	margin-left: 10px;
+}
+.home_main{
+	text-align: center;
+}
+.home_name{
+	height: 28%;
+	font-size: 60px;
+	color: #fff;
+}
+
+.home_slogan {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.home_intro{
+	width: 90%;
+	margin: auto;
+}
+
+.home_ex {
+
+    border: 1px solid #fff;
+    -webkit-border-radius: .4em;
+    border-radius: .4em;
+    clear: both;
+    margin-top: 3%;
+    padding: 1% 0;
+    cursor: pointer;
+    width: 88%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.cover{
+	height: 100%; 
+	width: 100%; 
+	position: fixed; 
+	top: 0px; 
+	bottom: 0px; 
+	left: 0px; 
+	right: 0px; 
+	transform: translate3d(0px, 0px, 0px); 
+	opacity: 1; 
+	display: block; 
+	z-index: 3; 
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.alert_box{
+	text-align: center;
+	width: 220px;
+	background: #fff;
+	position: absolute;
+	z-index: 4;
+	padding: 20px;
+	border-radius: 10px;
+	left: 50%;
+	top: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	left: 0; 
+	right: 0;
+}
+
+.qrcode_box_img img{
+	width: 160px;
+}
+
+
+.qrcode_box{
+}
+
+.qrcode_box_info{
+	margin-left: 20px;
+}
+
+.qrcode_box_title{
+	color: #3BC89C;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.qrcode_box_detail{
+	margin-top: 10px;
+	color: #888;
+	font-size: 12px;
+}
+
+.qrcode_box_title span{
+	display: none;
+}
+
+.qrcode_box_title:after{
+	content: "长按二维码体验"
+}
